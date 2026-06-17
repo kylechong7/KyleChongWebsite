@@ -121,6 +121,7 @@ document.addEventListener('DOMContentLoaded', async function() {
     template = template.replace(/href="#" className=\{common/g, 'href={href} className={common');
     template = template.replace('<a href="#" className="group/media block cursor-pointer">', '<a href={p.href || "#"} className="group/media block cursor-pointer">');
     template = template.replace('<DetailCue variant={detailCue} side={side} />', '<DetailCue variant={detailCue} side={side} href={p.href} />');
+    template = template.replace('href="#" className="text-ink/70 transition-colors hover:text-ink">Resume</a>', 'href="resume.pdf" target="_blank" rel="noopener noreferrer" className="text-ink/70 transition-colors hover:text-ink">Resume</a>');
 
     // Strip integrity + crossorigin — blob URLs from a file:// document inherit
     // a null origin, so crossorigin forces a CORS fetch that SRI then rejects.

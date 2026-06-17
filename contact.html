@@ -110,6 +110,7 @@ document.addEventListener('DOMContentLoaded', async function() {
     for (const uuid of uuids) template = template.split(uuid).join(blobUrls[uuid]);
     // Patch contact page links
     template = template.replace('href="#" style="color: rgba(21,20,15,0.7); text-decoration: none; transition: color 0.2s;" style-hover="color: #15140f;">Linkedin</a>', 'href="https://www.linkedin.com/in/kylechong7" style="color: rgba(21,20,15,0.7); text-decoration: none; transition: color 0.2s;" style-hover="color: #15140f;">Linkedin</a>');
+    template = template.replace('href="#" style="color: rgba(21,20,15,0.7); text-decoration: none; transition: color 0.2s;" style-hover="color: #15140f;">Resume</a>', 'href="resume.pdf" target="_blank" rel="noopener noreferrer" style="color: rgba(21,20,15,0.7); text-decoration: none; transition: color 0.2s;" style-hover="color: #15140f;">Resume</a>');
 
     // Strip integrity + crossorigin — blob URLs from a file:// document inherit
     // a null origin, so crossorigin forces a CORS fetch that SRI then rejects.
