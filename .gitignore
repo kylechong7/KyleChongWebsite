@@ -1,0 +1,33 @@
+# Node / Vite (old setup, not needed for static site)
+node_modules
+dist
+src/
+package.json
+package-lock.json
+vite.config.js
+tailwind.config.js
+postcss.config.js
+
+# Design canvas source files
+*.dc.html
+support.js
+temp-design.txt
+.thumbnail
+
+# Raw bundle source files (index.html etc. are the deployed versions)
+Kyle Chong Portfolio (standalone) (3).html
+Kyle Chong - Contact.html
+Project Lux Page/
+Project Seraph.html
+Project Seraph (offline).html
+Project Lux.html
+
+# Working folders
+build/
+scraps/
+screenshots/
+uploads/
+widgets/
+assets/
+pdf_img/
+Contact page design/
