@@ -1,30 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
-  <defs>
-    <radialGradient id="wafer" cx="40%" cy="34%" r="75%">
-      <stop offset="0%" stop-color="#cdd8e6"></stop>
-      <stop offset="45%" stop-color="#93a6c0"></stop>
-      <stop offset="100%" stop-color="#5f7699"></stop>
-    </radialGradient>
-    <clipPath id="disc"><circle cx="72" cy="50" r="20"></circle></clipPath>
-    <mask id="notch">
-      <rect x="0" y="0" width="100" height="100" fill="#fff"></rect>
-      <polygon points="67,29 77,29 72,36" fill="#000"></polygon>
-    </mask>
-  </defs>
-
-
   <rect x="0" y="0" width="100" height="100" rx="16" fill="#fdfcfa"></rect>
-
-
   <polygon fill="#14235e" points="6,20 19,20 19,44 35,20 49,20 30,50 49,80 35,80 19,56 19,80 6,80"></polygon>
-
-  
-  <g mask="url(#notch)">
-    <circle cx="72" cy="50" r="20" fill="url(#wafer)"></circle>
-    <g clip-path="url(#disc)" stroke="#22406e" stroke-opacity="0.24" stroke-width="1.3">
-      <path d="M56 30 V70"></path><path d="M62 30 V70"></path><path d="M68 30 V70"></path><path d="M74 30 V70"></path><path d="M80 30 V70"></path><path d="M86 30 V70"></path>
-      <path d="M52 36 H92"></path><path d="M52 42 H92"></path><path d="M52 48 H92"></path><path d="M52 54 H92"></path><path d="M52 60 H92"></path><path d="M52 66 H92"></path>
-    </g>
-    <circle cx="72" cy="50" r="20" fill="none" stroke="rgba(10,20,40,0.28)" stroke-width="1.3"></circle>
-  </g>
+  <line x1="53.51" y1="26.51" x2="79.3" y2="50" stroke="#6d84ab" stroke-width="1.5" stroke-linecap="round"></line>
+  <line x1="43.2" y1="36.3" x2="79.3" y2="50" stroke="#6d84ab" stroke-width="1.5" stroke-linecap="round"></line>
+  <line x1="39.4" y1="50" x2="79.3" y2="50" stroke="#6d84ab" stroke-width="1.5" stroke-linecap="round"></line>
+  <line x1="43.2" y1="63.7" x2="79.3" y2="50" stroke="#6d84ab" stroke-width="1.5" stroke-linecap="round"></line>
+  <line x1="53.51" y1="73.49" x2="79.3" y2="50" stroke="#6d84ab" stroke-width="1.5" stroke-linecap="round"></line>
+  <path d="M 86.86 29.85 A 29 29 0 1 0 86.86 70.15 L 85.13 68.48 A 26.6 26.6 0 1 1 85.13 31.52 Z" fill="#14235e"></path>
+  <circle cx="79.3" cy="50" r="2.4" fill="#14235e"></circle>
 </svg>
